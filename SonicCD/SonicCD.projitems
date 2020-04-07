@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3001fff0-b5e2-4e99-965e-17507aad469b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SonicCD</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AnimationFileList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AnimationSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AudioPlayback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollisionBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollisionMask16x16.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollisionSensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawVertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawVertex3D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EngineCallbacks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Face3D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileIO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FontCharacter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FunctionScript.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GfxSurfaceDesc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GifDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GifLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalAppDefinitions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LayoutMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LineScrollParallax.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappings128x128.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MusicTrackInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectDrawList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectScript.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PaletteEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayerObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayerStatistics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlayerSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Quad2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RenderDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scene3D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScriptEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SortList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteAnimation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteFrame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StageList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StageSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextMenu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vertex2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vertex3D.cs" />
+  </ItemGroup>
+</Project>
